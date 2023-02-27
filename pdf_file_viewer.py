@@ -285,7 +285,7 @@ class App(ShowPdf):
                     sheet_name=f'Ligne {self.lettre_ligne} Poste {self.read_text_file()[1:]}',
                     index=True
                 )
-                # writer.save()
+                writer.save()
 
     def search_pdf_file(self, option):
         self.set_recette()
